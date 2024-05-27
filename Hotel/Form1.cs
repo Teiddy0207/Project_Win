@@ -25,7 +25,7 @@ namespace Hotel
         private void button1_Click(object sender, EventArgs e)
         {
             DashBoard ds = new DashBoard();
-            if(txtLogin.Text == "" && txtPass.Text == "")
+            if (txtLogin.Text == "a" && txtPass.Text == "1")
             {
                 this.Hide();
                 ds.Show();

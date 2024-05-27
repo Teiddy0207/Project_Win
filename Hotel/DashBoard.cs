@@ -11,6 +11,10 @@ using System.Data.SqlClient;
 using System.Security.Policy;
 using System.Data.Common;
 using System.Collections.ObjectModel;
+using System.Text.RegularExpressions;
+using System.Reflection.Emit;
+using System.Net.NetworkInformation;
+using System.Security.Cryptography;
 namespace Hotel
 {
     public partial class DashBoard : Form
@@ -18,7 +22,7 @@ namespace Hotel
        
         
         SqlConnection connection = new SqlConnection("Data Source=TEDDY\\QUANGANH;Initial Catalog=Hotel;Integrated Security=True;");
-        string tempcid;
+        string tempcid;// tao 1 bien
         void load()
         {
             connection.Open();
@@ -49,16 +53,13 @@ namespace Hotel
 
 
         }
-      
-        private void DashBoard_Load(object sender, EventArgs e)
-        {
-
-        }
 
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            
+         
+
+
             connection.Open();
             SqlCommand cmd = new SqlCommand("Insert into rooms (roomNo, roomType, bed, price) values (@roomNo, @roomType, @bed, @price) ", connection);
             cmd.Parameters.AddWithValue("@roomNo", txtRoomNumber.Text);
@@ -68,9 +69,19 @@ namespace Hotel
 
             cmd.ExecuteNonQuery();
             connection.Close();
+
             load();
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-
+            //    }
+            //    finally
+            //    {
+            //        connection.Close();
+            //    }
+            //}
         }
 
         private void tabPage4_Click(object sender, EventArgs e)
@@ -101,6 +112,9 @@ namespace Hotel
             SqlCommand cmd = new SqlCommand("SELECT roomNo, price FROM rooms WHERE roomType = @roomType AND bed = @bed", connection);
             cmd.Parameters.AddWithValue("@bed", cboBedCus.Text);
             cmd.Parameters.AddWithValue("@roomType", selectedRoomType);
+            //sau khi chpn giuong va loai giuong, app se hien thi phong tuong ung de co the dat
+           
+
             SqlDataReader reader = cmd.ExecuteReader();
             cboRoomNoCus.Items.Clear();
             while (reader.Read())
@@ -109,12 +123,11 @@ namespace Hotel
             }
             connection.Close();
         }
-
+        //Đoạn mã này nhằm mục đích cập nhật danh sách các mã phòng(roomNo) trong cboRoomNoCus dựa trên loại phòng và loại giường đã chọn.Khi người dùng chọn một loại phòng và loại giường,
+        //    ứng dụng sẽ truy vấn cơ sở dữ liệu để lấy các phòng tương ứng và hiển thị chúng trong cboRoomNoCus để người dùng có thể chọn đặt phòng.
         private void cboRoomNoCus_SelectedIndexChanged(object sender, EventArgs e)
         {
-
             UpdatePrice();
-
         }
         private void cboBedCus_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -122,24 +135,36 @@ namespace Hotel
         }
 
       
-        private void UpdatePrice()
+        private void UpdatePrice() // ham cap nhat gia
         {
             if (cboBedCus.SelectedItem != null && cboRoomNoCus.SelectedItem != null)
             {
                 connection.Open();
                 SqlCommand cmd = new SqlCommand("SELECT price FROM rooms WHERE roomNo = @roomNo", connection);
                 cmd.Parameters.AddWithValue("@roomNo", cboRoomNoCus.SelectedItem.ToString());
-                SqlDataReader reader = cmd.ExecuteReader();
+                SqlDataReader reader = cmd.ExecuteReader();  //Dòng này thực thi truy vấn và trả về một SqlDataReader để đọc kết quả.
                 if (reader.Read())
                 {
                     txtPriceCus.Text = reader["price"].ToString();
                 }
+
+                //Sử dụng phương thức Read() của SqlDataReader để di chuyển đến hàng đầu tiên của kết quả và kiểm tra xem có hàng nào hay không. Nếu có,
+                //lấy giá trị của cột price từ hàng đó và
+                //gán cho thuộc tính Text của txtPriceCus.
                 connection.Close();
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtNameCus.Text) ||
+                string.IsNullOrWhiteSpace(txtMobile.Text) ||            
+                string.IsNullOrWhiteSpace(txtIdProof.Text) ||        
+                string.IsNullOrWhiteSpace(cboRoomNoCus.Text))
+            {
+                MessageBox.Show("Vui lòng nhập đủ thông tin.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
             if (dgvDetails != null)
             {
@@ -151,12 +176,11 @@ namespace Hotel
                 }
 
                 connection.Open();
-                SqlCommand cmd = new SqlCommand("UPDATE rooms SET booked = 'yes' WHERE roomNo = @roomNo", connection);
+                SqlCommand cmd = new SqlCommand("UPDATE rooms SET booked = 'YES' WHERE roomNo = @roomNo", connection);
                 cmd.Parameters.AddWithValue("@roomNo", selectedRoom);
                 cmd.ExecuteNonQuery();
 
-                // Chèn thông tin khách hàng vào bảng 'Customers'
-                SqlCommand insertCmd = new SqlCommand("INSERT INTO customer (name,num,nat,gender,idproof,address,roomNo,timeCheckIn,checkin) VALUES (@name,@num,@nat,@gender,@idproof,@address,@roomNo,@timeCheckIn,@checkin)", connection);
+                SqlCommand insertCmd = new SqlCommand("INSERT INTO customer (name, num, nat, gender, idproof, address, roomNo, checkin) VALUES (@name, @num, @nat, @gender, @idproof, @address, @roomNo, @checkin)", connection);
                 insertCmd.Parameters.AddWithValue("@name", txtNameCus.Text);
                 insertCmd.Parameters.AddWithValue("@num", txtMobile.Text);
                 insertCmd.Parameters.AddWithValue("@nat", txtNat.Text);
@@ -164,21 +188,20 @@ namespace Hotel
                 insertCmd.Parameters.AddWithValue("@idproof", txtIdProof.Text);
                 insertCmd.Parameters.AddWithValue("@address", txtAddress.Text);
                 insertCmd.Parameters.AddWithValue("@roomNo", selectedRoom);
-                insertCmd.Parameters.AddWithValue("@timeCheckIn", cboTimeCheckIn);
                 insertCmd.Parameters.AddWithValue("@checkin", dtpkCheckIn.Value.ToString("yyyy-MM-dd"));
 
                 insertCmd.ExecuteNonQuery();
                 connection.Close();
                 loadCus();
-                load(); // Cập nhật lại danh sách phòng sau khi đặt
-                LoadAvailableRooms(); // Cập nhật danh sách phòng chưa được đặt
+                load();
+                LoadAvailableRooms();
                 MessageBox.Show("Đặt phòng thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-        
             else
             {
                 MessageBox.Show("Không thể tìm thấy DataGridView.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
             txtNameCus.Clear();
             txtMobile.Clear();
             txtNat.Clear();
@@ -188,18 +211,19 @@ namespace Hotel
             cboBedCus.Text = "";
             cboRoomNoCus.Text = "";
         }
-
         private bool IsRoomBooked(string roomNumber)
         {
             connection.Open();
             SqlCommand cmd = new SqlCommand("SELECT booked FROM rooms WHERE roomNo = @roomNo", connection);
             cmd.Parameters.AddWithValue("@roomNo", roomNumber);
             SqlDataReader reader = cmd.ExecuteReader();
-            if (reader.Read())
+            if (reader.Read())   //Kiểm tra xem có dữ liệu trả về từ truy vấn hay không bằng cách gọi phương thức Read() của đối tượng SqlDataReader. Nếu có dữ liệu, điều kiện trong dấu ngoặc nhọn sẽ được thực thi.
             {
-                string bookedStatus = reader["booked"].ToString();// trich xuat ket qua
+                string bookedStatus = reader["booked"].ToString();// trich xuat ket quarích xuất giá trị của cột "booked" từ dòng dữ liệu đầu tiên mà SqlDataReader đọc được và gán vào
+                                                                  // biến bookedStatus.
+                                                                  // Dòng này chuyển đổi giá trị từ kiểu object sang kiểu string bằng cách gọi phương thức 
                 connection.Close();
-                return bookedStatus == "yes";
+                return bookedStatus == "YES";
             }
             connection.Close();
             return false;
@@ -223,38 +247,31 @@ namespace Hotel
         private void btnCheck_Click(object sender, EventArgs e)
         {
 
-         
             connection.Open();
-
-
-
             // Lấy idproof của khách hàng cần xóa
             string idProofToDelete = tempcid.ToString();
-
-           
-
-            // Lấy roomNo của khách hàng đã xóa
+            // Lấy roomNo của khách hàng chuan bi duoc xo xóa
             SqlCommand getRoomNoCmd = new SqlCommand("SELECT roomNo FROM customer WHERE idproof = @idproof", connection);
             getRoomNoCmd.Parameters.AddWithValue("@idproof", idProofToDelete);
-            string roomNo = getRoomNoCmd.ExecuteScalar()?.ToString();
+            string roomNo = getRoomNoCmd.ExecuteScalar().ToString();
+            //thực thi lệnh và trả về giá trị đầu tiên của cột roomNo tương ứng,
+            //sau đó chuyển đổi giá trị này thành chuỗi và gán cho biến roomNo
+
 
             // Thực hiện câu truy vấn DELETE để xóa khách hàng
             SqlCommand cmd = new SqlCommand("DELETE FROM customer WHERE idproof = @idproof", connection);
             cmd.Parameters.AddWithValue("@idproof", idProofToDelete);
             cmd.ExecuteNonQuery();
-
             // Nếu có roomNo, thực hiện cập nhật trạng thái booked của phòng sang "no"
+            //thanh toan xong thi chuyen trang thai phong sang khong ai dat
             if (!string.IsNullOrEmpty(roomNo))
             {
-                SqlCommand updateRoomCmd = new SqlCommand("UPDATE rooms SET booked = 'no' WHERE roomNo = @roomNo", connection);
+                SqlCommand updateRoomCmd = new SqlCommand("UPDATE rooms SET booked = 'NO' WHERE roomNo = @roomNo", connection);
                 updateRoomCmd.Parameters.AddWithValue("@roomNo", roomNo);
                 updateRoomCmd.ExecuteNonQuery();
             }
-
             connection.Close();
-
             MessageBox.Show("Thanh toán thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
             loadCus();
             load(); // Cập nhật lại dgvDetails
 
@@ -307,6 +324,114 @@ namespace Hotel
             cboRoomType.Text = dgvDetails.Rows[e.RowIndex].Cells[1].Value.ToString();
             cboBed.Text = dgvDetails.Rows[e.RowIndex].Cells[2].Value.ToString();
             txtPrice.Text = dgvDetails.Rows[e.RowIndex].Cells[3].Value.ToString();
+        }
+
+        private void txtNameCus_TextChanged(object sender, EventArgs e)
+        {
+            bool hasNumber = txtNameCus.Text.Any(char.IsDigit);
+
+            // Hiển thị hoặc ẩn label23 dựa trên kết quả kiểm tra
+            if (label23.Visible = hasNumber)
+            {
+                label23.Text = "Sai định dạng tên";
+            }
+        }
+
+        private void txtIdProof_TextChanged(object sender, EventArgs e)
+        {
+            string text = txtIdProof.Text;
+
+            // Kiểm tra độ dài của chuỗi
+            if (text.Length != 12)
+            {
+                lb_ID.Text = "Số căn cước không hợp lệ!";
+                lb_ID.Visible = true;
+            }
+            else
+            {
+                lb_ID.Visible = false;
+            }
+        }
+
+        private void txtMobile_TextChanged(object sender, EventArgs e)
+        {
+            string text = txtMobile.Text;
+
+            // Kiểm tra độ dài của chuỗi
+            if (text.Length > 10 || text.Length < 8)
+            {
+                lb_DT.Text = "SĐT không đúng định dạng!";
+                lb_DT.Visible = true;
+            }
+            else
+            {
+                lb_DT.Visible = false;
+            }
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpkCheckIn_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboGender_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNat_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_ID_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_DT_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtRoomNumber_TextChanged(object sender, EventArgs e)
+        {
+            bool hasOnlyDigits = txtRoomNumber.Text.All(char.IsDigit);
+
+            if (hasOnlyDigits)
+            {
+                lb_SP.Text = "";
+            }
+            else
+            {
+                lb_SP.Text = "Số phòng sai định dạng";
+            }
+
         }
     }
 

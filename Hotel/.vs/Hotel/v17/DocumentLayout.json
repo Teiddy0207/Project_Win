@@ -1,21 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\IT\\C#\\Hotel\\",
+  "WorkspaceRootPath": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\Hotel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE5E0951-4236-4D93-8F61-C85F96FC986A}|Hotel.csproj|c:\\users\\ncpc\\onedrive\\m\u00E1y t\u00EDnh\\it\\c#\\hotel\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE5E0951-4236-4D93-8F61-C85F96FC986A}|Hotel.csproj|c:\\users\\ncpc\\onedrive\\m\u00E1y t\u00EDnh\\project_win\\hotel\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE5E0951-4236-4D93-8F61-C85F96FC986A}|Hotel.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE5E0951-4236-4D93-8F61-C85F96FC986A}|Hotel.csproj|C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\IT\\C#\\Hotel\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DE5E0951-4236-4D93-8F61-C85F96FC986A}|Hotel.csproj|C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\Hotel\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DE5E0951-4236-4D93-8F61-C85F96FC986A}|Hotel.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE5E0951-4236-4D93-8F61-C85F96FC986A}|Hotel.csproj|C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\IT\\C#\\Hotel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\NCPC\\AppData\\Local\\Temp\\Rar$DIa48984.39241\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5E0951-4236-4D93-8F61-C85F96FC986A}|Hotel.csproj|C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\Hotel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DE5E0951-4236-4D93-8F61-C85F96FC986A}|Hotel.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE5E0951-4236-4D93-8F61-C85F96FC986A}|Hotel.csproj|C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\IT\\C#\\Hotel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE5E0951-4236-4D93-8F61-C85F96FC986A}|Hotel.csproj|C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\Hotel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE5E0951-4236-4D93-8F61-C85F96FC986A}|Hotel.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,17 +33,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\IT\\C#\\Hotel\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\Hotel\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\IT\\C#\\Hotel\\Form1.cs",
+              "ToolTip": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\Hotel\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAiwBsAAAA3AAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T04:28:44.264Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -50,38 +52,48 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DashBoard.cs",
-              "DocumentMoniker": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\IT\\C#\\Hotel\\DashBoard.cs",
+              "DocumentMoniker": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\Hotel\\DashBoard.cs",
               "RelativeDocumentMoniker": "DashBoard.cs",
-              "ToolTip": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\IT\\C#\\Hotel\\DashBoard.cs",
+              "ToolTip": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\Hotel\\DashBoard.cs",
               "RelativeToolTip": "DashBoard.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAABNAAAA",
+              "ViewState": "AQIAAJUBAAAAAAAAAAAMwKkBAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T05:15:06.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DashBoard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\IT\\C#\\Hotel\\DashBoard.cs",
-              "RelativeDocumentMoniker": "DashBoard.cs",
-              "ToolTip": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\IT\\C#\\Hotel\\DashBoard.cs [Design]",
-              "RelativeToolTip": "DashBoard.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\NCPC\\AppData\\Local\\Temp\\Rar$DIa48984.39241\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\Rar$DIa48984.39241\\Form1.cs",
+              "ToolTip": "C:\\Users\\NCPC\\AppData\\Local\\Temp\\Rar$DIa48984.39241\\Form1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\Rar$DIa48984.39241\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T06:59:42.656Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-15T08:59:43.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "DashBoard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\Hotel\\DashBoard.cs",
+              "RelativeDocumentMoniker": "DashBoard.cs",
+              "ToolTip": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\IT\\C#\\Hotel\\DashBoard.cs [Design]*",
+              "RelativeToolTip": "..\\..\\IT\\C#\\Hotel\\DashBoard.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T06:59:42.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\IT\\C#\\Hotel\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\Hotel\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\IT\\C#\\Hotel\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\IT\\C#\\Hotel\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T04:27:15.788Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-12T04:27:15.788Z"
             }
           ]
         },

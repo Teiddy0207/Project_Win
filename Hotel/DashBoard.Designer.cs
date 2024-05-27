@@ -29,63 +29,63 @@
         private void InitializeComponent()
         {
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.dgvCusCheck = new System.Windows.Forms.DataGridView();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.txtNameCheck = new System.Windows.Forms.TextBox();
-            this.txtRoomNoCheck = new System.Windows.Forms.TextBox();
-            this.dtpDateCheckOut = new System.Windows.Forms.DateTimePicker();
-            this.btnCheck = new System.Windows.Forms.Button();
-            this.label21 = new System.Windows.Forms.Label();
             this.txtIdCheck = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
+            this.txtRoomNoCheck = new System.Windows.Forms.TextBox();
+            this.txtNameCheck = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
-            this.label25 = new System.Windows.Forms.Label();
-            this.cboTimeCheckOut = new System.Windows.Forms.ComboBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.txtTotalPayment = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.btnCheck = new System.Windows.Forms.Button();
+            this.dtpDateCheckOut = new System.Windows.Forms.DateTimePicker();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.dgvCusCheck = new System.Windows.Forms.DataGridView();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.dgvDetails = new System.Windows.Forms.DataGridView();
-            this.txtRoomNumber = new System.Windows.Forms.TextBox();
-            this.cboRoomType = new System.Windows.Forms.ComboBox();
-            this.cboBed = new System.Windows.Forms.ComboBox();
-            this.txtPrice = new System.Windows.Forms.TextBox();
-            this.btnAdd = new System.Windows.Forms.Button();
             this.btnFix = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.txtPrice = new System.Windows.Forms.TextBox();
+            this.txtRoomNumber = new System.Windows.Forms.TextBox();
+            this.cboBed = new System.Windows.Forms.ComboBox();
+            this.cboRoomType = new System.Windows.Forms.ComboBox();
+            this.dgvDetails = new System.Windows.Forms.DataGridView();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.txtNameCus = new System.Windows.Forms.TextBox();
-            this.txtMobile = new System.Windows.Forms.TextBox();
-            this.txtNat = new System.Windows.Forms.TextBox();
-            this.cboGender = new System.Windows.Forms.ComboBox();
-            this.txtIdProof = new System.Windows.Forms.TextBox();
-            this.txtAddress = new System.Windows.Forms.TextBox();
-            this.dtpkCheckIn = new System.Windows.Forms.DateTimePicker();
-            this.cboBedCus = new System.Windows.Forms.ComboBox();
-            this.cboRoomTypeCus = new System.Windows.Forms.ComboBox();
-            this.cboRoomNoCus = new System.Windows.Forms.ComboBox();
-            this.txtPriceCus = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.lb_DT = new System.Windows.Forms.Label();
+            this.lb_ID = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.TimeCheckIn = new System.Windows.Forms.Label();
-            this.cboTimeCheckIn = new System.Windows.Forms.ComboBox();
+            this.txtPriceCus = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.txtIdProof = new System.Windows.Forms.TextBox();
+            this.txtNat = new System.Windows.Forms.TextBox();
+            this.txtMobile = new System.Windows.Forms.TextBox();
+            this.txtNameCus = new System.Windows.Forms.TextBox();
+            this.cboRoomNoCus = new System.Windows.Forms.ComboBox();
+            this.cboRoomTypeCus = new System.Windows.Forms.ComboBox();
+            this.cboBedCus = new System.Windows.Forms.ComboBox();
+            this.dtpkCheckIn = new System.Windows.Forms.DateTimePicker();
+            this.cboGender = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.lb_SP = new System.Windows.Forms.Label();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCusCheck)).BeginInit();
             this.tabPage4.SuspendLayout();
@@ -96,13 +96,9 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.txtTotalPayment);
             this.tabPage3.Controls.Add(this.txtIdCheck);
             this.tabPage3.Controls.Add(this.txtRoomNoCheck);
             this.tabPage3.Controls.Add(this.txtNameCheck);
-            this.tabPage3.Controls.Add(this.label26);
-            this.tabPage3.Controls.Add(this.cboTimeCheckOut);
-            this.tabPage3.Controls.Add(this.label25);
             this.tabPage3.Controls.Add(this.btnSearch);
             this.tabPage3.Controls.Add(this.label22);
             this.tabPage3.Controls.Add(this.label21);
@@ -115,93 +111,10 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(912, 471);
+            this.tabPage3.Size = new System.Drawing.Size(870, 471);
             this.tabPage3.TabIndex = 4;
             this.tabPage3.Text = "Payment";
             this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // dgvCusCheck
-            // 
-            this.dgvCusCheck.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCusCheck.Location = new System.Drawing.Point(43, 153);
-            this.dgvCusCheck.Name = "dgvCusCheck";
-            this.dgvCusCheck.RowHeadersWidth = 51;
-            this.dgvCusCheck.RowTemplate.Height = 24;
-            this.dgvCusCheck.Size = new System.Drawing.Size(834, 167);
-            this.dgvCusCheck.TabIndex = 0;
-            this.dgvCusCheck.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCusCheck_CellClick);
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(58, 368);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(53, 18);
-            this.label18.TabIndex = 1;
-            this.label18.Text = "Name";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(209, 367);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(113, 18);
-            this.label19.TabIndex = 2;
-            this.label19.Text = "Room Number";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(352, 366);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(91, 18);
-            this.label20.TabIndex = 3;
-            this.label20.Text = "Check_Out";
-            // 
-            // txtNameCheck
-            // 
-            this.txtNameCheck.Location = new System.Drawing.Point(61, 412);
-            this.txtNameCheck.Name = "txtNameCheck";
-            this.txtNameCheck.Size = new System.Drawing.Size(121, 22);
-            this.txtNameCheck.TabIndex = 4;
-            // 
-            // txtRoomNoCheck
-            // 
-            this.txtRoomNoCheck.Location = new System.Drawing.Point(201, 412);
-            this.txtRoomNoCheck.Name = "txtRoomNoCheck";
-            this.txtRoomNoCheck.Size = new System.Drawing.Size(121, 22);
-            this.txtRoomNoCheck.TabIndex = 5;
-            // 
-            // dtpDateCheckOut
-            // 
-            this.dtpDateCheckOut.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDateCheckOut.Location = new System.Drawing.Point(355, 410);
-            this.dtpDateCheckOut.Name = "dtpDateCheckOut";
-            this.dtpDateCheckOut.Size = new System.Drawing.Size(121, 22);
-            this.dtpDateCheckOut.TabIndex = 6;
-            // 
-            // btnCheck
-            // 
-            this.btnCheck.Location = new System.Drawing.Point(766, 385);
-            this.btnCheck.Name = "btnCheck";
-            this.btnCheck.Size = new System.Drawing.Size(130, 50);
-            this.btnCheck.TabIndex = 7;
-            this.btnCheck.Text = "Check-Out";
-            this.btnCheck.UseVisualStyleBackColor = true;
-            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(364, 65);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(112, 18);
-            this.label21.TabIndex = 8;
-            this.label21.Text = "identification ";
             // 
             // txtIdCheck
             // 
@@ -210,15 +123,19 @@
             this.txtIdCheck.Size = new System.Drawing.Size(206, 22);
             this.txtIdCheck.TabIndex = 9;
             // 
-            // label22
+            // txtRoomNoCheck
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Century", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(39, 42);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(204, 22);
-            this.label22.TabIndex = 10;
-            this.label22.Text = "Customer Check-Out";
+            this.txtRoomNoCheck.Location = new System.Drawing.Point(268, 415);
+            this.txtRoomNoCheck.Name = "txtRoomNoCheck";
+            this.txtRoomNoCheck.Size = new System.Drawing.Size(121, 22);
+            this.txtRoomNoCheck.TabIndex = 5;
+            // 
+            // txtNameCheck
+            // 
+            this.txtNameCheck.Location = new System.Drawing.Point(61, 412);
+            this.txtNameCheck.Name = "txtNameCheck";
+            this.txtNameCheck.Size = new System.Drawing.Size(121, 22);
+            this.txtNameCheck.TabIndex = 4;
             // 
             // btnSearch
             // 
@@ -230,42 +147,91 @@
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // label25
+            // label22
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(493, 368);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(101, 16);
-            this.label25.TabIndex = 12;
-            this.label25.Text = "Time-Check out";
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Century", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(39, 42);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(204, 22);
+            this.label22.TabIndex = 10;
+            this.label22.Text = "Customer Check-Out";
             // 
-            // cboTimeCheckOut
+            // label21
             // 
-            this.cboTimeCheckOut.FormattingEnabled = true;
-            this.cboTimeCheckOut.Location = new System.Drawing.Point(496, 410);
-            this.cboTimeCheckOut.Name = "cboTimeCheckOut";
-            this.cboTimeCheckOut.Size = new System.Drawing.Size(121, 24);
-            this.cboTimeCheckOut.TabIndex = 13;
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(364, 65);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(112, 18);
+            this.label21.TabIndex = 8;
+            this.label21.Text = "identification ";
             // 
-            // label26
+            // btnCheck
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(644, 370);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(51, 16);
-            this.label26.TabIndex = 14;
-            this.label26.Text = "label26";
+            this.btnCheck.Location = new System.Drawing.Point(747, 385);
+            this.btnCheck.Name = "btnCheck";
+            this.btnCheck.Size = new System.Drawing.Size(130, 50);
+            this.btnCheck.TabIndex = 7;
+            this.btnCheck.Text = "Check-Out";
+            this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
             // 
-            // txtTotalPayment
+            // dtpDateCheckOut
             // 
-            this.txtTotalPayment.Location = new System.Drawing.Point(647, 412);
-            this.txtTotalPayment.Name = "txtTotalPayment";
-            this.txtTotalPayment.Size = new System.Drawing.Size(100, 22);
-            this.txtTotalPayment.TabIndex = 15;
+            this.dtpDateCheckOut.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDateCheckOut.Location = new System.Drawing.Point(451, 413);
+            this.dtpDateCheckOut.Name = "dtpDateCheckOut";
+            this.dtpDateCheckOut.Size = new System.Drawing.Size(121, 22);
+            this.dtpDateCheckOut.TabIndex = 6;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(457, 368);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(91, 18);
+            this.label20.TabIndex = 3;
+            this.label20.Text = "Check_Out";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(265, 368);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(113, 18);
+            this.label19.TabIndex = 2;
+            this.label19.Text = "Room Number";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(58, 368);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(53, 18);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "Name";
+            // 
+            // dgvCusCheck
+            // 
+            this.dgvCusCheck.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCusCheck.Location = new System.Drawing.Point(6, 153);
+            this.dgvCusCheck.Name = "dgvCusCheck";
+            this.dgvCusCheck.RowHeadersWidth = 51;
+            this.dgvCusCheck.RowTemplate.Height = 24;
+            this.dgvCusCheck.Size = new System.Drawing.Size(857, 167);
+            this.dgvCusCheck.TabIndex = 0;
+            this.dgvCusCheck.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCusCheck_CellClick);
             // 
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.tabPage4.BackgroundImage = global::Hotel.Properties.Resources.z5479621320577_cda849a53c53c669dc96a958c1599467;
+            this.tabPage4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage4.Controls.Add(this.lb_SP);
             this.tabPage4.Controls.Add(this.btnFix);
             this.tabPage4.Controls.Add(this.btnAdd);
             this.tabPage4.Controls.Add(this.txtPrice);
@@ -281,60 +247,68 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(912, 471);
+            this.tabPage4.Size = new System.Drawing.Size(870, 471);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Add Room";
             this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
-            // label1
+            // btnFix
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(167, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "THEM PHONG";
+            this.btnFix.Location = new System.Drawing.Point(614, 365);
+            this.btnFix.Name = "btnFix";
+            this.btnFix.Size = new System.Drawing.Size(116, 69);
+            this.btnFix.TabIndex = 11;
+            this.btnFix.Text = "Sửa thông tin";
+            this.btnFix.UseVisualStyleBackColor = true;
+            this.btnFix.Click += new System.EventHandler(this.btnFix_Click);
             // 
-            // label2
+            // btnAdd
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(614, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 21);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "So Phong";
+            this.btnAdd.Location = new System.Drawing.Point(748, 365);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(116, 69);
+            this.btnAdd.TabIndex = 10;
+            this.btnAdd.Text = "Thêm phòng";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // label3
+            // txtPrice
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(615, 145);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 21);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Loai phong";
+            this.txtPrice.Location = new System.Drawing.Point(618, 321);
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(184, 22);
+            this.txtPrice.TabIndex = 9;
             // 
-            // label4
+            // txtRoomNumber
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(615, 228);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 21);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Loai Giuong";
+            this.txtRoomNumber.Location = new System.Drawing.Point(618, 87);
+            this.txtRoomNumber.Name = "txtRoomNumber";
+            this.txtRoomNumber.Size = new System.Drawing.Size(184, 22);
+            this.txtRoomNumber.TabIndex = 6;
+            this.txtRoomNumber.TextChanged += new System.EventHandler(this.txtRoomNumber_TextChanged);
             // 
-            // label5
+            // cboBed
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(615, 297);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 21);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Gia";
+            this.cboBed.FormattingEnabled = true;
+            this.cboBed.Items.AddRange(new object[] {
+            "giuong don",
+            "giuong 2"});
+            this.cboBed.Location = new System.Drawing.Point(618, 247);
+            this.cboBed.Name = "cboBed";
+            this.cboBed.Size = new System.Drawing.Size(184, 24);
+            this.cboBed.TabIndex = 8;
+            // 
+            // cboRoomType
+            // 
+            this.cboRoomType.FormattingEnabled = true;
+            this.cboRoomType.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3"});
+            this.cboRoomType.Location = new System.Drawing.Point(618, 174);
+            this.cboRoomType.Name = "cboRoomType";
+            this.cboRoomType.Size = new System.Drawing.Size(184, 24);
+            this.cboRoomType.TabIndex = 7;
             // 
             // dgvDetails
             // 
@@ -349,68 +323,76 @@
             this.dgvDetails.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetails_CellClick);
             this.dgvDetails.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetails_CellContentClick);
             // 
-            // txtRoomNumber
+            // label5
             // 
-            this.txtRoomNumber.Location = new System.Drawing.Point(618, 87);
-            this.txtRoomNumber.Name = "txtRoomNumber";
-            this.txtRoomNumber.Size = new System.Drawing.Size(184, 22);
-            this.txtRoomNumber.TabIndex = 6;
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Lime;
+            this.label5.Location = new System.Drawing.Point(615, 297);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(41, 21);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Giá";
             // 
-            // cboRoomType
+            // label4
             // 
-            this.cboRoomType.FormattingEnabled = true;
-            this.cboRoomType.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3"});
-            this.cboRoomType.Location = new System.Drawing.Point(618, 174);
-            this.cboRoomType.Name = "cboRoomType";
-            this.cboRoomType.Size = new System.Drawing.Size(184, 24);
-            this.cboRoomType.TabIndex = 7;
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Lime;
+            this.label4.Location = new System.Drawing.Point(615, 228);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(99, 21);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Loại giường";
             // 
-            // cboBed
+            // label3
             // 
-            this.cboBed.FormattingEnabled = true;
-            this.cboBed.Items.AddRange(new object[] {
-            "giuong don",
-            "giuong 2"});
-            this.cboBed.Location = new System.Drawing.Point(618, 247);
-            this.cboBed.Name = "cboBed";
-            this.cboBed.Size = new System.Drawing.Size(184, 24);
-            this.cboBed.TabIndex = 8;
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Lime;
+            this.label3.Location = new System.Drawing.Point(615, 145);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(104, 21);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Loại phòng";
             // 
-            // txtPrice
+            // label2
             // 
-            this.txtPrice.Location = new System.Drawing.Point(618, 321);
-            this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(184, 22);
-            this.txtPrice.TabIndex = 9;
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Lime;
+            this.label2.Location = new System.Drawing.Point(614, 63);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(90, 21);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Số phòng";
             // 
-            // btnAdd
+            // label1
             // 
-            this.btnAdd.Location = new System.Drawing.Point(773, 365);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(116, 69);
-            this.btnAdd.TabIndex = 10;
-            this.btnAdd.Text = "Them Phong";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
-            // btnFix
-            // 
-            this.btnFix.Location = new System.Drawing.Point(614, 365);
-            this.btnFix.Name = "btnFix";
-            this.btnFix.Size = new System.Drawing.Size(116, 69);
-            this.btnFix.TabIndex = 11;
-            this.btnFix.Text = "Sua thong tin";
-            this.btnFix.UseVisualStyleBackColor = true;
-            this.btnFix.Click += new System.EventHandler(this.btnFix_Click);
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Lime;
+            this.label1.Location = new System.Drawing.Point(6, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(167, 23);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "THEM PHONG";
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.tabPage2.Controls.Add(this.cboTimeCheckIn);
-            this.tabPage2.Controls.Add(this.TimeCheckIn);
+            this.tabPage2.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage2.BackgroundImage = global::Hotel.Properties.Resources.z5479621232510_8a8b8360ad874b0c97055f17c76f0af81;
+            this.tabPage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage2.Controls.Add(this.label25);
+            this.tabPage2.Controls.Add(this.label24);
+            this.tabPage2.Controls.Add(this.lb_DT);
+            this.tabPage2.Controls.Add(this.lb_ID);
+            this.tabPage2.Controls.Add(this.label23);
             this.tabPage2.Controls.Add(this.label17);
             this.tabPage2.Controls.Add(this.txtPriceCus);
             this.tabPage2.Controls.Add(this.txtAddress);
@@ -435,189 +417,143 @@
             this.tabPage2.Controls.Add(this.label8);
             this.tabPage2.Controls.Add(this.label7);
             this.tabPage2.Controls.Add(this.label6);
+            this.tabPage2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage2.ForeColor = System.Drawing.Color.Chartreuse;
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(912, 471);
+            this.tabPage2.Size = new System.Drawing.Size(870, 471);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Customer Registration";
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
-            // label6
+            // label25
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(69, 83);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 16);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Name";
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label25.Location = new System.Drawing.Point(3, 327);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(209, 31);
+            this.label25.TabIndex = 28;
+            this.label25.Text = "Thông tin phòng";
             // 
-            // label7
+            // label24
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(65, 171);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(66, 16);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Mobie No";
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label24.Location = new System.Drawing.Point(6, 136);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(203, 31);
+            this.label24.TabIndex = 28;
+            this.label24.Text = "Thông tin khách";
             // 
-            // label8
+            // lb_DT
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(65, 255);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(70, 16);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Nationality";
+            this.lb_DT.AutoSize = true;
+            this.lb_DT.BackColor = System.Drawing.Color.Transparent;
+            this.lb_DT.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_DT.ForeColor = System.Drawing.Color.Red;
+            this.lb_DT.Location = new System.Drawing.Point(239, 207);
+            this.lb_DT.Name = "lb_DT";
+            this.lb_DT.Size = new System.Drawing.Size(0, 19);
+            this.lb_DT.TabIndex = 27;
+            this.lb_DT.Click += new System.EventHandler(this.lb_DT_Click);
             // 
-            // label9
+            // lb_ID
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(69, 326);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(52, 16);
-            this.label9.TabIndex = 3;
-            this.label9.Text = "Gender";
+            this.lb_ID.AutoSize = true;
+            this.lb_ID.BackColor = System.Drawing.Color.Transparent;
+            this.lb_ID.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_ID.ForeColor = System.Drawing.Color.Red;
+            this.lb_ID.Location = new System.Drawing.Point(452, 136);
+            this.lb_ID.Name = "lb_ID";
+            this.lb_ID.Size = new System.Drawing.Size(0, 19);
+            this.lb_ID.TabIndex = 26;
+            this.lb_ID.Click += new System.EventHandler(this.lb_ID_Click);
             // 
-            // label11
+            // label23
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(331, 83);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(20, 16);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "ID";
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.Red;
+            this.label23.Location = new System.Drawing.Point(236, 136);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(0, 19);
+            this.label23.TabIndex = 25;
+            this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
-            // label12
+            // label17
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(331, 171);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(58, 16);
-            this.label12.TabIndex = 6;
-            this.label12.Text = "Address";
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Century", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label17.Location = new System.Drawing.Point(295, 3);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(277, 28);
+            this.label17.TabIndex = 24;
+            this.label17.Text = "Customer Registration";
             // 
-            // label13
+            // txtPriceCus
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(331, 255);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(58, 16);
-            this.label13.TabIndex = 7;
-            this.label13.Text = "Check in";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(578, 83);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(32, 16);
-            this.label14.TabIndex = 8;
-            this.label14.Text = "Bed";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(578, 171);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(79, 16);
-            this.label15.TabIndex = 9;
-            this.label15.Text = "Room Type";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(578, 255);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(65, 16);
-            this.label16.TabIndex = 10;
-            this.label16.Text = "Room No";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(578, 326);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(38, 16);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "Price";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button1.Location = new System.Drawing.Point(711, 388);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 63);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Allot Customer";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // txtNameCus
-            // 
-            this.txtNameCus.Location = new System.Drawing.Point(69, 131);
-            this.txtNameCus.Name = "txtNameCus";
-            this.txtNameCus.Size = new System.Drawing.Size(143, 22);
-            this.txtNameCus.TabIndex = 13;
-            // 
-            // txtMobile
-            // 
-            this.txtMobile.Location = new System.Drawing.Point(69, 214);
-            this.txtMobile.Name = "txtMobile";
-            this.txtMobile.Size = new System.Drawing.Size(143, 22);
-            this.txtMobile.TabIndex = 14;
-            // 
-            // txtNat
-            // 
-            this.txtNat.Location = new System.Drawing.Point(69, 293);
-            this.txtNat.Name = "txtNat";
-            this.txtNat.Size = new System.Drawing.Size(143, 22);
-            this.txtNat.TabIndex = 15;
-            // 
-            // cboGender
-            // 
-            this.cboGender.FormattingEnabled = true;
-            this.cboGender.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
-            this.cboGender.Location = new System.Drawing.Point(68, 361);
-            this.cboGender.Name = "cboGender";
-            this.cboGender.Size = new System.Drawing.Size(144, 24);
-            this.cboGender.TabIndex = 16;
-            // 
-            // txtIdProof
-            // 
-            this.txtIdProof.Location = new System.Drawing.Point(335, 130);
-            this.txtIdProof.Name = "txtIdProof";
-            this.txtIdProof.Size = new System.Drawing.Size(143, 22);
-            this.txtIdProof.TabIndex = 17;
+            this.txtPriceCus.Location = new System.Drawing.Point(449, 363);
+            this.txtPriceCus.Name = "txtPriceCus";
+            this.txtPriceCus.ReadOnly = true;
+            this.txtPriceCus.Size = new System.Drawing.Size(143, 27);
+            this.txtPriceCus.TabIndex = 23;
             // 
             // txtAddress
             // 
-            this.txtAddress.Location = new System.Drawing.Point(335, 214);
+            this.txtAddress.Location = new System.Drawing.Point(448, 182);
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(143, 22);
+            this.txtAddress.Size = new System.Drawing.Size(143, 27);
             this.txtAddress.TabIndex = 18;
             // 
-            // dtpkCheckIn
+            // txtIdProof
             // 
-            this.dtpkCheckIn.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpkCheckIn.Location = new System.Drawing.Point(335, 293);
-            this.dtpkCheckIn.Name = "dtpkCheckIn";
-            this.dtpkCheckIn.Size = new System.Drawing.Size(143, 22);
-            this.dtpkCheckIn.TabIndex = 19;
+            this.txtIdProof.Location = new System.Drawing.Point(449, 107);
+            this.txtIdProof.Name = "txtIdProof";
+            this.txtIdProof.Size = new System.Drawing.Size(143, 27);
+            this.txtIdProof.TabIndex = 17;
+            this.txtIdProof.TextChanged += new System.EventHandler(this.txtIdProof_TextChanged);
             // 
-            // cboBedCus
+            // txtNat
             // 
-            this.cboBedCus.FormattingEnabled = true;
-            this.cboBedCus.Items.AddRange(new object[] {
-            "giuong don",
-            "giuong 2"});
-            this.cboBedCus.Location = new System.Drawing.Point(681, 83);
-            this.cboBedCus.Name = "cboBedCus";
-            this.cboBedCus.Size = new System.Drawing.Size(143, 24);
-            this.cboBedCus.TabIndex = 20;
-            this.cboBedCus.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.txtNat.Location = new System.Drawing.Point(650, 182);
+            this.txtNat.Name = "txtNat";
+            this.txtNat.Size = new System.Drawing.Size(143, 27);
+            this.txtNat.TabIndex = 15;
+            this.txtNat.TextChanged += new System.EventHandler(this.txtNat_TextChanged);
+            // 
+            // txtMobile
+            // 
+            this.txtMobile.Location = new System.Drawing.Point(238, 182);
+            this.txtMobile.Name = "txtMobile";
+            this.txtMobile.Size = new System.Drawing.Size(143, 27);
+            this.txtMobile.TabIndex = 14;
+            this.txtMobile.TextChanged += new System.EventHandler(this.txtMobile_TextChanged);
+            // 
+            // txtNameCus
+            // 
+            this.txtNameCus.Location = new System.Drawing.Point(238, 107);
+            this.txtNameCus.Name = "txtNameCus";
+            this.txtNameCus.Size = new System.Drawing.Size(143, 27);
+            this.txtNameCus.TabIndex = 13;
+            this.txtNameCus.TextChanged += new System.EventHandler(this.txtNameCus_TextChanged);
+            // 
+            // cboRoomNoCus
+            // 
+            this.cboRoomNoCus.FormattingEnabled = true;
+            this.cboRoomNoCus.Location = new System.Drawing.Point(238, 361);
+            this.cboRoomNoCus.Name = "cboRoomNoCus";
+            this.cboRoomNoCus.Size = new System.Drawing.Size(143, 28);
+            this.cboRoomNoCus.TabIndex = 22;
+            this.cboRoomNoCus.SelectedIndexChanged += new System.EventHandler(this.cboRoomNoCus_SelectedIndexChanged);
             // 
             // cboRoomTypeCus
             // 
@@ -626,72 +562,191 @@
             "1",
             "2",
             "3"});
-            this.cboRoomTypeCus.Location = new System.Drawing.Point(681, 171);
+            this.cboRoomTypeCus.Location = new System.Drawing.Point(449, 300);
             this.cboRoomTypeCus.Name = "cboRoomTypeCus";
-            this.cboRoomTypeCus.Size = new System.Drawing.Size(143, 24);
+            this.cboRoomTypeCus.Size = new System.Drawing.Size(143, 28);
             this.cboRoomTypeCus.TabIndex = 21;
             this.cboRoomTypeCus.SelectedIndexChanged += new System.EventHandler(this.cboRoomTypeCus_SelectedIndexChanged);
             // 
-            // cboRoomNoCus
+            // cboBedCus
             // 
-            this.cboRoomNoCus.FormattingEnabled = true;
-            this.cboRoomNoCus.Location = new System.Drawing.Point(681, 255);
-            this.cboRoomNoCus.Name = "cboRoomNoCus";
-            this.cboRoomNoCus.Size = new System.Drawing.Size(143, 24);
-            this.cboRoomNoCus.TabIndex = 22;
-            this.cboRoomNoCus.SelectedIndexChanged += new System.EventHandler(this.cboRoomNoCus_SelectedIndexChanged);
+            this.cboBedCus.FormattingEnabled = true;
+            this.cboBedCus.Items.AddRange(new object[] {
+            "giuong don",
+            "giuong 2"});
+            this.cboBedCus.Location = new System.Drawing.Point(238, 300);
+            this.cboBedCus.Name = "cboBedCus";
+            this.cboBedCus.Size = new System.Drawing.Size(143, 28);
+            this.cboBedCus.TabIndex = 20;
+            this.cboBedCus.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // txtPriceCus
+            // dtpkCheckIn
             // 
-            this.txtPriceCus.Location = new System.Drawing.Point(681, 326);
-            this.txtPriceCus.Name = "txtPriceCus";
-            this.txtPriceCus.ReadOnly = true;
-            this.txtPriceCus.Size = new System.Drawing.Size(143, 22);
-            this.txtPriceCus.TabIndex = 23;
+            this.dtpkCheckIn.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpkCheckIn.Location = new System.Drawing.Point(360, 429);
+            this.dtpkCheckIn.Name = "dtpkCheckIn";
+            this.dtpkCheckIn.Size = new System.Drawing.Size(143, 27);
+            this.dtpkCheckIn.TabIndex = 19;
+            this.dtpkCheckIn.ValueChanged += new System.EventHandler(this.dtpkCheckIn_ValueChanged);
             // 
-            // label17
+            // cboGender
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Century", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(67, 29);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(277, 28);
-            this.label17.TabIndex = 24;
-            this.label17.Text = "Customer Registration";
+            this.cboGender.FormattingEnabled = true;
+            this.cboGender.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.cboGender.Location = new System.Drawing.Point(652, 107);
+            this.cboGender.Name = "cboGender";
+            this.cboGender.Size = new System.Drawing.Size(144, 28);
+            this.cboGender.TabIndex = 16;
+            this.cboGender.SelectedIndexChanged += new System.EventHandler(this.cboGender_SelectedIndexChanged);
             // 
-            // TimeCheckIn
+            // button1
             // 
-            this.TimeCheckIn.AutoSize = true;
-            this.TimeCheckIn.Location = new System.Drawing.Point(331, 326);
-            this.TimeCheckIn.Name = "TimeCheckIn";
-            this.TimeCheckIn.Size = new System.Drawing.Size(90, 16);
-            this.TimeCheckIn.TabIndex = 25;
-            this.TimeCheckIn.Text = "Time-CheckIn";
+            this.button1.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button1.Location = new System.Drawing.Point(695, 316);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(136, 63);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Đặt phòng";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // cboTimeCheckIn
+            // label10
             // 
-            this.cboTimeCheckIn.FormattingEnabled = true;
-            this.cboTimeCheckIn.Items.AddRange(new object[] {
-            "7H",
-            "8H",
-            "9H",
-            "10H",
-            "11H",
-            "12H",
-            "14H",
-            "15H",
-            "16H",
-            "17H",
-            "18H",
-            "20H",
-            "21H",
-            "22H",
-            "23H",
-            "0H"});
-            this.cboTimeCheckIn.Location = new System.Drawing.Point(335, 360);
-            this.cboTimeCheckIn.Name = "cboTimeCheckIn";
-            this.cboTimeCheckIn.Size = new System.Drawing.Size(143, 24);
-            this.cboTimeCheckIn.TabIndex = 26;
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label10.Location = new System.Drawing.Point(444, 342);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(45, 20);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "Price";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label16.Location = new System.Drawing.Point(235, 342);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(79, 20);
+            this.label16.TabIndex = 10;
+            this.label16.Text = "Số phòng";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label15.Location = new System.Drawing.Point(452, 281);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(91, 20);
+            this.label15.TabIndex = 9;
+            this.label15.Text = "Loại phòng";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label14.Location = new System.Drawing.Point(235, 281);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(93, 20);
+            this.label14.TabIndex = 8;
+            this.label14.Text = "Loại giường";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label13.Location = new System.Drawing.Point(387, 410);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(70, 20);
+            this.label13.TabIndex = 7;
+            this.label13.Text = "Check in";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label12.Location = new System.Drawing.Point(446, 163);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(55, 20);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "Địa chỉ";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label11.Location = new System.Drawing.Point(445, 77);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(162, 20);
+            this.label11.TabIndex = 5;
+            this.label11.Text = "Căn cước công dân(*)";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label9.Location = new System.Drawing.Point(651, 88);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(63, 20);
+            this.label9.TabIndex = 3;
+            this.label9.Text = "Gender";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label8.Location = new System.Drawing.Point(649, 163);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(77, 20);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Quốc tịch";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label7.Location = new System.Drawing.Point(235, 163);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(55, 20);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "SĐT(*)";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label6.Location = new System.Drawing.Point(235, 77);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(53, 20);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Tên(*)";
             // 
             // tabControl1
             // 
@@ -701,19 +756,28 @@
             this.tabControl1.Location = new System.Drawing.Point(2, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(920, 500);
+            this.tabControl1.Size = new System.Drawing.Size(878, 500);
             this.tabControl1.TabIndex = 0;
+            // 
+            // lb_SP
+            // 
+            this.lb_SP.AutoSize = true;
+            this.lb_SP.BackColor = System.Drawing.Color.Transparent;
+            this.lb_SP.ForeColor = System.Drawing.Color.Red;
+            this.lb_SP.Location = new System.Drawing.Point(618, 116);
+            this.lb_SP.Name = "lb_SP";
+            this.lb_SP.Size = new System.Drawing.Size(0, 16);
+            this.lb_SP.TabIndex = 12;
             // 
             // DashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(926, 501);
+            this.ClientSize = new System.Drawing.Size(881, 501);
             this.Controls.Add(this.tabControl1);
             this.Name = "DashBoard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DashBoard";
-            this.Load += new System.EventHandler(this.DashBoard_Load);
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCusCheck)).EndInit();
@@ -730,13 +794,9 @@
         #endregion
 
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TextBox txtTotalPayment;
         private System.Windows.Forms.TextBox txtIdCheck;
         private System.Windows.Forms.TextBox txtRoomNoCheck;
         private System.Windows.Forms.TextBox txtNameCheck;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.ComboBox cboTimeCheckOut;
-        private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
@@ -760,8 +820,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.ComboBox cboTimeCheckIn;
-        private System.Windows.Forms.Label TimeCheckIn;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox txtPriceCus;
         private System.Windows.Forms.TextBox txtAddress;
@@ -787,5 +845,11 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.Label lb_DT;
+        private System.Windows.Forms.Label lb_ID;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        protected System.Windows.Forms.Label lb_SP;
     }
 }
