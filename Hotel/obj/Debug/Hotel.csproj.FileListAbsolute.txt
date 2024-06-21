@@ -9,3 +9,14 @@ C:\Users\NCPC\OneDrive\Máy tính\IT\C#\Hotel\bin\Debug\Hotel.exe
 C:\Users\NCPC\OneDrive\Máy tính\IT\C#\Hotel\bin\Debug\Hotel.pdb
 C:\Users\NCPC\OneDrive\Máy tính\IT\C#\Hotel\obj\Debug\Hotel.exe
 C:\Users\NCPC\OneDrive\Máy tính\IT\C#\Hotel\obj\Debug\Hotel.pdb
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\Hotel\bin\Debug\Hotel.exe.config
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\Hotel\bin\Debug\Hotel.exe
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\Hotel\bin\Debug\Hotel.pdb
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\Hotel\obj\Debug\Hotel.csproj.AssemblyReference.cache
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\Hotel\obj\Debug\Hotel.DashBoard.resources
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\Hotel\obj\Debug\Hotel.Form1.resources
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\Hotel\obj\Debug\Hotel.Properties.Resources.resources
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\Hotel\obj\Debug\Hotel.csproj.GenerateResource.cache
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\Hotel\obj\Debug\Hotel.csproj.CoreCompileInputs.cache
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\Hotel\obj\Debug\Hotel.exe
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\Hotel\obj\Debug\Hotel.pdb

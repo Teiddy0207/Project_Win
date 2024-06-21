@@ -1,0 +1,10 @@
+D:\OnthiC#\QlyBanMayTinh\bin\Debug\QlyBanMayTinh.exe.config
+D:\OnthiC#\QlyBanMayTinh\bin\Debug\QlyBanMayTinh.exe
+D:\OnthiC#\QlyBanMayTinh\bin\Debug\QlyBanMayTinh.pdb
+D:\OnthiC#\QlyBanMayTinh\obj\Debug\QlyBanMayTinh.csproj.AssemblyReference.cache
+D:\OnthiC#\QlyBanMayTinh\obj\Debug\QlyBanMayTinh.Form1.resources
+D:\OnthiC#\QlyBanMayTinh\obj\Debug\QlyBanMayTinh.Properties.Resources.resources
+D:\OnthiC#\QlyBanMayTinh\obj\Debug\QlyBanMayTinh.csproj.GenerateResource.cache
+D:\OnthiC#\QlyBanMayTinh\obj\Debug\QlyBanMayTinh.csproj.CoreCompileInputs.cache
+D:\OnthiC#\QlyBanMayTinh\obj\Debug\QlyBanMayTinh.exe
+D:\OnthiC#\QlyBanMayTinh\obj\Debug\QlyBanMayTinh.pdb

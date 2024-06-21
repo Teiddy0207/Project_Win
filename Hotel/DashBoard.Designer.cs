@@ -42,6 +42,7 @@
             this.label18 = new System.Windows.Forms.Label();
             this.dgvCusCheck = new System.Windows.Forms.DataGridView();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.lb_SP = new System.Windows.Forms.Label();
             this.btnFix = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.txtPrice = new System.Windows.Forms.TextBox();
@@ -85,7 +86,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.lb_SP = new System.Windows.Forms.Label();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCusCheck)).BeginInit();
             this.tabPage4.SuspendLayout();
@@ -143,7 +143,7 @@
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(107, 22);
             this.btnSearch.TabIndex = 11;
-            this.btnSearch.Text = "Tim kiem";
+            this.btnSearch.Text = "TÌM KIẾM";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
@@ -163,13 +163,13 @@
             this.label21.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(364, 65);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(112, 18);
+            this.label21.Size = new System.Drawing.Size(55, 18);
             this.label21.TabIndex = 8;
-            this.label21.Text = "identification ";
+            this.label21.Text = "CCCD";
             // 
             // btnCheck
             // 
-            this.btnCheck.Location = new System.Drawing.Point(747, 385);
+            this.btnCheck.Location = new System.Drawing.Point(720, 387);
             this.btnCheck.Name = "btnCheck";
             this.btnCheck.Size = new System.Drawing.Size(130, 50);
             this.btnCheck.TabIndex = 7;
@@ -201,9 +201,9 @@
             this.label19.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(265, 368);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(113, 18);
+            this.label19.Size = new System.Drawing.Size(76, 18);
             this.label19.TabIndex = 2;
-            this.label19.Text = "Room Number";
+            this.label19.Text = "Số phòng";
             // 
             // label18
             // 
@@ -211,9 +211,9 @@
             this.label18.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(58, 368);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(53, 18);
+            this.label18.Size = new System.Drawing.Size(34, 18);
             this.label18.TabIndex = 1;
-            this.label18.Text = "Name";
+            this.label18.Text = "TÊN";
             // 
             // dgvCusCheck
             // 
@@ -250,7 +250,16 @@
             this.tabPage4.Size = new System.Drawing.Size(870, 471);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Add Room";
-            this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
+            // 
+            // lb_SP
+            // 
+            this.lb_SP.AutoSize = true;
+            this.lb_SP.BackColor = System.Drawing.Color.Transparent;
+            this.lb_SP.ForeColor = System.Drawing.Color.Red;
+            this.lb_SP.Location = new System.Drawing.Point(618, 116);
+            this.lb_SP.Name = "lb_SP";
+            this.lb_SP.Size = new System.Drawing.Size(0, 16);
+            this.lb_SP.TabIndex = 12;
             // 
             // btnFix
             // 
@@ -321,7 +330,6 @@
             this.dgvDetails.Size = new System.Drawing.Size(587, 351);
             this.dgvDetails.TabIndex = 5;
             this.dgvDetails.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetails_CellClick);
-            this.dgvDetails.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetails_CellContentClick);
             // 
             // label5
             // 
@@ -381,7 +389,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(167, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "THEM PHONG";
+            this.label1.Text = "THÊM PHÒNG";
             // 
             // tabPage2
             // 
@@ -425,7 +433,6 @@
             this.tabPage2.Size = new System.Drawing.Size(870, 471);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Customer Registration";
-            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
             // label25
             // 
@@ -758,16 +765,6 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(878, 500);
             this.tabControl1.TabIndex = 0;
-            // 
-            // lb_SP
-            // 
-            this.lb_SP.AutoSize = true;
-            this.lb_SP.BackColor = System.Drawing.Color.Transparent;
-            this.lb_SP.ForeColor = System.Drawing.Color.Red;
-            this.lb_SP.Location = new System.Drawing.Point(618, 116);
-            this.lb_SP.Name = "lb_SP";
-            this.lb_SP.Size = new System.Drawing.Size(0, 16);
-            this.lb_SP.TabIndex = 12;
             // 
             // DashBoard
             // 

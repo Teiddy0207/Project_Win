@@ -41,9 +41,9 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(125, 83);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 19);
+            this.label1.Size = new System.Drawing.Size(87, 19);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Dang Nhap";
+            this.label1.Text = "Tài Khoản";
             // 
             // label2
             // 
@@ -51,9 +51,9 @@
             this.label2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(125, 163);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 19);
+            this.label2.Size = new System.Drawing.Size(81, 19);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Mat Khau";
+            this.label2.Text = "Mật khẩu";
             // 
             // txtLogin
             // 
@@ -77,7 +77,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(192, 54);
             this.button1.TabIndex = 4;
-            this.button1.Text = "DANG NHAP";
+            this.button1.Text = "ĐĂNG NHẬP";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -94,7 +94,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Đăng nhập";
             this.ResumeLayout(false);
             this.PerformLayout();
 

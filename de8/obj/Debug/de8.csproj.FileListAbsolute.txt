@@ -1,0 +1,10 @@
+D:\OnthiC#\de8\bin\Debug\de8.exe.config
+D:\OnthiC#\de8\bin\Debug\de8.exe
+D:\OnthiC#\de8\bin\Debug\de8.pdb
+D:\OnthiC#\de8\obj\Debug\de8.csproj.AssemblyReference.cache
+D:\OnthiC#\de8\obj\Debug\de8.Form1.resources
+D:\OnthiC#\de8\obj\Debug\de8.Properties.Resources.resources
+D:\OnthiC#\de8\obj\Debug\de8.csproj.GenerateResource.cache
+D:\OnthiC#\de8\obj\Debug\de8.csproj.CoreCompileInputs.cache
+D:\OnthiC#\de8\obj\Debug\de8.exe
+D:\OnthiC#\de8\obj\Debug\de8.pdb

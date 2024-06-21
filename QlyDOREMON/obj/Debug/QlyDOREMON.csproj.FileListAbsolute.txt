@@ -1,0 +1,10 @@
+D:\OnthiC#\QlyDOREMON\bin\Debug\QlyDOREMON.exe.config
+D:\OnthiC#\QlyDOREMON\bin\Debug\QlyDOREMON.exe
+D:\OnthiC#\QlyDOREMON\bin\Debug\QlyDOREMON.pdb
+D:\OnthiC#\QlyDOREMON\obj\Debug\QlyDOREMON.csproj.AssemblyReference.cache
+D:\OnthiC#\QlyDOREMON\obj\Debug\QlyDOREMON.Form1.resources
+D:\OnthiC#\QlyDOREMON\obj\Debug\QlyDOREMON.Properties.Resources.resources
+D:\OnthiC#\QlyDOREMON\obj\Debug\QlyDOREMON.csproj.GenerateResource.cache
+D:\OnthiC#\QlyDOREMON\obj\Debug\QlyDOREMON.csproj.CoreCompileInputs.cache
+D:\OnthiC#\QlyDOREMON\obj\Debug\QlyDOREMON.exe
+D:\OnthiC#\QlyDOREMON\obj\Debug\QlyDOREMON.pdb

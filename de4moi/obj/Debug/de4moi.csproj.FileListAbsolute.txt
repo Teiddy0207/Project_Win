@@ -1,0 +1,10 @@
+D:\OnthiC#\de4moi\bin\Debug\de4moi.exe.config
+D:\OnthiC#\de4moi\bin\Debug\de4moi.exe
+D:\OnthiC#\de4moi\bin\Debug\de4moi.pdb
+D:\OnthiC#\de4moi\obj\Debug\de4moi.csproj.AssemblyReference.cache
+D:\OnthiC#\de4moi\obj\Debug\de4moi.Form1.resources
+D:\OnthiC#\de4moi\obj\Debug\de4moi.Properties.Resources.resources
+D:\OnthiC#\de4moi\obj\Debug\de4moi.csproj.GenerateResource.cache
+D:\OnthiC#\de4moi\obj\Debug\de4moi.csproj.CoreCompileInputs.cache
+D:\OnthiC#\de4moi\obj\Debug\de4moi.exe
+D:\OnthiC#\de4moi\obj\Debug\de4moi.pdb

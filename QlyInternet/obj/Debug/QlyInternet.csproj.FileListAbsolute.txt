@@ -1,0 +1,10 @@
+D:\OnthiC#\QlyInternet\bin\Debug\QlyInternet.exe.config
+D:\OnthiC#\QlyInternet\bin\Debug\QlyInternet.exe
+D:\OnthiC#\QlyInternet\bin\Debug\QlyInternet.pdb
+D:\OnthiC#\QlyInternet\obj\Debug\QlyInternet.csproj.AssemblyReference.cache
+D:\OnthiC#\QlyInternet\obj\Debug\QlyInternet.Form1.resources
+D:\OnthiC#\QlyInternet\obj\Debug\QlyInternet.Properties.Resources.resources
+D:\OnthiC#\QlyInternet\obj\Debug\QlyInternet.csproj.GenerateResource.cache
+D:\OnthiC#\QlyInternet\obj\Debug\QlyInternet.csproj.CoreCompileInputs.cache
+D:\OnthiC#\QlyInternet\obj\Debug\QlyInternet.exe
+D:\OnthiC#\QlyInternet\obj\Debug\QlyInternet.pdb

@@ -24,13 +24,22 @@ namespace Hotel
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DashBoard ds = new DashBoard();
+           
             if (txtLogin.Text == "a" && txtPass.Text == "1")
-            {
-                this.Hide();
-                ds.Show();
+           {
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+                MessageBox.Show("Đăng nhập thành công!!");
             }
+          else if(txtLogin.Text == "" && txtPass.Text == "")
+    {
+                MessageBox.Show("Ten dang nhap hoac mat khau khong duoc de trong");
+            }
+            
+            
             else
+           
+            
             {
                 MessageBox.Show("Sai mk hoac ten dang nhap");
             }

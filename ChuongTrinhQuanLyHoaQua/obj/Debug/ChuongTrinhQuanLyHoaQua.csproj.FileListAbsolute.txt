@@ -1,0 +1,10 @@
+D:\OnthiC#\ChuongTrinhQuanLyHoaQua\obj\Debug\ChuongTrinhQuanLyHoaQua.csproj.AssemblyReference.cache
+D:\OnthiC#\ChuongTrinhQuanLyHoaQua\obj\Debug\ChuongTrinhQuanLyHoaQua.Form1.resources
+D:\OnthiC#\ChuongTrinhQuanLyHoaQua\obj\Debug\ChuongTrinhQuanLyHoaQua.Properties.Resources.resources
+D:\OnthiC#\ChuongTrinhQuanLyHoaQua\obj\Debug\ChuongTrinhQuanLyHoaQua.csproj.GenerateResource.cache
+D:\OnthiC#\ChuongTrinhQuanLyHoaQua\obj\Debug\ChuongTrinhQuanLyHoaQua.csproj.CoreCompileInputs.cache
+D:\OnthiC#\ChuongTrinhQuanLyHoaQua\bin\Debug\ChuongTrinhQuanLyHoaQua.exe.config
+D:\OnthiC#\ChuongTrinhQuanLyHoaQua\bin\Debug\ChuongTrinhQuanLyHoaQua.exe
+D:\OnthiC#\ChuongTrinhQuanLyHoaQua\bin\Debug\ChuongTrinhQuanLyHoaQua.pdb
+D:\OnthiC#\ChuongTrinhQuanLyHoaQua\obj\Debug\ChuongTrinhQuanLyHoaQua.exe
+D:\OnthiC#\ChuongTrinhQuanLyHoaQua\obj\Debug\ChuongTrinhQuanLyHoaQua.pdb

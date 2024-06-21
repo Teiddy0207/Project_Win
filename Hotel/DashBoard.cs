@@ -22,7 +22,8 @@ namespace Hotel
        
         
         SqlConnection connection = new SqlConnection("Data Source=TEDDY\\QUANGANH;Initial Catalog=Hotel;Integrated Security=True;");
-        string tempcid;// tao 1 bien
+        string tempcid;// tạo biến lưu trữ giá trị của các textbox id
+
         void load()
         {
             connection.Open();
@@ -71,32 +72,7 @@ namespace Hotel
             connection.Close();
 
             load();
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-            //    }
-            //    finally
-            //    {
-            //        connection.Close();
-            //    }
-            //}
-        }
-
-        private void tabPage4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dgvDetails_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-         
+     
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
@@ -125,17 +101,17 @@ namespace Hotel
         }
         //Đoạn mã này nhằm mục đích cập nhật danh sách các mã phòng(roomNo) trong cboRoomNoCus dựa trên loại phòng và loại giường đã chọn.Khi người dùng chọn một loại phòng và loại giường,
         //    ứng dụng sẽ truy vấn cơ sở dữ liệu để lấy các phòng tương ứng và hiển thị chúng trong cboRoomNoCus để người dùng có thể chọn đặt phòng.
-        private void cboRoomNoCus_SelectedIndexChanged(object sender, EventArgs e)
+        private void cboRoomNoCus_SelectedIndexChanged(object sender, EventArgs e)// sau khi chọn số phòng sẽ hiển thị giá 
         {
             UpdatePrice();
         }
-        private void cboBedCus_SelectedIndexChanged(object sender, EventArgs e)
+        private void cboBedCus_SelectedIndexChanged(object sender, EventArgs e)// sau khi chọn loại giường sẽ hiển thị giá 
         {
             UpdatePrice();
         }
-
+        // tức là 2 hàm này dùng để lọc giá khi chọn giường và số phòng
       
-        private void UpdatePrice() // ham cap nhat gia
+        private void UpdatePrice() // hàm cập nhật giá 
         {
             if (cboBedCus.SelectedItem != null && cboRoomNoCus.SelectedItem != null)
             {
@@ -211,7 +187,7 @@ namespace Hotel
             cboBedCus.Text = "";
             cboRoomNoCus.Text = "";
         }
-        private bool IsRoomBooked(string roomNumber)
+        private bool IsRoomBooked(string roomNumber)// hàm kiểm tra xem có người đặt phòng hay chưa
         {
             connection.Open();
             SqlCommand cmd = new SqlCommand("SELECT booked FROM rooms WHERE roomNo = @roomNo", connection);
@@ -233,7 +209,7 @@ namespace Hotel
             cboRoomNoCus.Items.Clear();
             string selectedRoomType = cboRoomTypeCus.Text;
             connection.Open();
-            SqlCommand cmd = new SqlCommand("SELECT roomNo, price FROM rooms WHERE roomType = @roomType AND bed = @bed AND booked = 'no'", connection);
+            SqlCommand cmd = new SqlCommand("SELECT roomNo, price FROM rooms WHERE roomType = @roomType AND bed = @bed AND booked = 'NO'", connection);
             cmd.Parameters.AddWithValue("@bed", cboBedCus.Text);
             cmd.Parameters.AddWithValue("@roomType", selectedRoomType);
             SqlDataReader reader = cmd.ExecuteReader();
