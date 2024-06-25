@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\OnthiC#\\QlyInternet\\",
+  "WorkspaceRootPath": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\QlyInternet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{689ED2E4-27F8-4644-B436-26BD2C4662DF}|QlyInternet.csproj|d:\\onthic#\\qlyinternet\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{689ED2E4-27F8-4644-B436-26BD2C4662DF}|QlyInternet.csproj|c:\\users\\ncpc\\onedrive\\m\u00E1y t\u00EDnh\\project_win\\qlyinternet\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{689ED2E4-27F8-4644-B436-26BD2C4662DF}|QlyInternet.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{689ED2E4-27F8-4644-B436-26BD2C4662DF}|QlyInternet.csproj|d:\\onthic#\\qlyinternet\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{689ED2E4-27F8-4644-B436-26BD2C4662DF}|QlyInternet.csproj|C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\QlyInternet\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{689ED2E4-27F8-4644-B436-26BD2C4662DF}|QlyInternet.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\OnthiC#\\QlyInternet\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\QlyInternet\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\OnthiC#\\QlyInternet\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAowJYAAAAUAAAA",
+              "ToolTip": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\QlyInternet\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAjwBwAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T03:32:29.264Z",
               "EditorCaption": ""
@@ -41,10 +41,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\OnthiC#\\QlyInternet\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\QlyInternet\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\OnthiC#\\QlyInternet\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\NCPC\\OneDrive\\M\u00E1y t\u00EDnh\\Project_Win\\QlyInternet\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T05:10:29.818Z",
               "EditorCaption": " [Design]"

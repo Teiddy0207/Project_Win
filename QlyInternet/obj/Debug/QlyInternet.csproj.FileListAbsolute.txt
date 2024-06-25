@@ -8,3 +8,13 @@ D:\OnthiC#\QlyInternet\obj\Debug\QlyInternet.csproj.GenerateResource.cache
 D:\OnthiC#\QlyInternet\obj\Debug\QlyInternet.csproj.CoreCompileInputs.cache
 D:\OnthiC#\QlyInternet\obj\Debug\QlyInternet.exe
 D:\OnthiC#\QlyInternet\obj\Debug\QlyInternet.pdb
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\QlyInternet\bin\Debug\QlyInternet.exe.config
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\QlyInternet\bin\Debug\QlyInternet.exe
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\QlyInternet\bin\Debug\QlyInternet.pdb
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\QlyInternet\obj\Debug\QlyInternet.csproj.AssemblyReference.cache
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\QlyInternet\obj\Debug\QlyInternet.Form1.resources
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\QlyInternet\obj\Debug\QlyInternet.Properties.Resources.resources
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\QlyInternet\obj\Debug\QlyInternet.csproj.GenerateResource.cache
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\QlyInternet\obj\Debug\QlyInternet.csproj.CoreCompileInputs.cache
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\QlyInternet\obj\Debug\QlyInternet.exe
+C:\Users\NCPC\OneDrive\Máy tính\Project_Win\QlyInternet\obj\Debug\QlyInternet.pdb

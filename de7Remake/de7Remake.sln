@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de7Remake", "de7Remake.csproj", "{4794836E-4613-4E27-BDB0-CE4C56A3E761}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4794836E-4613-4E27-BDB0-CE4C56A3E761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4794836E-4613-4E27-BDB0-CE4C56A3E761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4794836E-4613-4E27-BDB0-CE4C56A3E761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4794836E-4613-4E27-BDB0-CE4C56A3E761}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4CABF5B-26D1-43B2-B423-E62E9CD4E1DE}
+	EndGlobalSection
+EndGlobal

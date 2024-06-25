@@ -1,0 +1,10 @@
+D:\OnthiC#\QlySanPham\bin\Debug\QlySanPham.exe.config
+D:\OnthiC#\QlySanPham\bin\Debug\QlySanPham.exe
+D:\OnthiC#\QlySanPham\bin\Debug\QlySanPham.pdb
+D:\OnthiC#\QlySanPham\obj\Debug\QlySanPham.csproj.AssemblyReference.cache
+D:\OnthiC#\QlySanPham\obj\Debug\QlySanPham.Form1.resources
+D:\OnthiC#\QlySanPham\obj\Debug\QlySanPham.Properties.Resources.resources
+D:\OnthiC#\QlySanPham\obj\Debug\QlySanPham.csproj.GenerateResource.cache
+D:\OnthiC#\QlySanPham\obj\Debug\QlySanPham.csproj.CoreCompileInputs.cache
+D:\OnthiC#\QlySanPham\obj\Debug\QlySanPham.exe
+D:\OnthiC#\QlySanPham\obj\Debug\QlySanPham.pdb

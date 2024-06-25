@@ -1,0 +1,10 @@
+D:\OnthiC#\QuanLyTruyenTranh\obj\Debug\QuanLyTruyenTranh.csproj.AssemblyReference.cache
+D:\OnthiC#\QuanLyTruyenTranh\obj\Debug\QuanLyTruyenTranh.Form1.resources
+D:\OnthiC#\QuanLyTruyenTranh\obj\Debug\QuanLyTruyenTranh.Properties.Resources.resources
+D:\OnthiC#\QuanLyTruyenTranh\obj\Debug\QuanLyTruyenTranh.csproj.GenerateResource.cache
+D:\OnthiC#\QuanLyTruyenTranh\obj\Debug\QuanLyTruyenTranh.csproj.CoreCompileInputs.cache
+D:\OnthiC#\QuanLyTruyenTranh\bin\Debug\QuanLyTruyenTranh.exe.config
+D:\OnthiC#\QuanLyTruyenTranh\bin\Debug\QuanLyTruyenTranh.exe
+D:\OnthiC#\QuanLyTruyenTranh\bin\Debug\QuanLyTruyenTranh.pdb
+D:\OnthiC#\QuanLyTruyenTranh\obj\Debug\QuanLyTruyenTranh.exe
+D:\OnthiC#\QuanLyTruyenTranh\obj\Debug\QuanLyTruyenTranh.pdb

@@ -1,0 +1,10 @@
+D:\OnthiC#\de8Remake\bin\Debug\de8Remake.exe.config
+D:\OnthiC#\de8Remake\bin\Debug\de8Remake.exe
+D:\OnthiC#\de8Remake\bin\Debug\de8Remake.pdb
+D:\OnthiC#\de8Remake\obj\Debug\de8Remake.csproj.AssemblyReference.cache
+D:\OnthiC#\de8Remake\obj\Debug\de8Remake.Form1.resources
+D:\OnthiC#\de8Remake\obj\Debug\de8Remake.Properties.Resources.resources
+D:\OnthiC#\de8Remake\obj\Debug\de8Remake.csproj.GenerateResource.cache
+D:\OnthiC#\de8Remake\obj\Debug\de8Remake.csproj.CoreCompileInputs.cache
+D:\OnthiC#\de8Remake\obj\Debug\de8Remake.exe
+D:\OnthiC#\de8Remake\obj\Debug\de8Remake.pdb
