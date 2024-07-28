@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        .header {
+            background-color: plum;
+            padding: 10px 0;
+        }
+
+        .outer-circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .inner-circle {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: darkblue;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .title-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .content .left div {
+            border: 1px solid white;
+            background-color: rgb(212, 29, 72);
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            color: aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 10px;
+        }
+
+        .content .left .list {
+            color: coral;
+            margin-top: 10px;
+        }
+
+        .main-content .row .col img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .content .right {
+            margin-left: 40px;
+        }
+
+        .footer{
+            background-color: blueviolet;
+            color: bisque;
+            font-size: medium;
+            font-weight: 500;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body class="container">
+   
+    <div class="header d-flex justify-content-between align-items-center">
+        <div class="left mt-2">
+            <ul class="list-unstyled d-flex flex-row mb-0">
+                <li class="p-2">Trang chủ</li>
+                <li class="p-2">Về chúng tôi</li>
+                <li class="p-2">Mua hàng</li>
+                <li class="p-2">Liên hệ</li>
+                <li class="p-2">Hỗ trợ</li>
+            </ul>
+        </div>
+        <div class="right d-flex align-items-center mr-3">
+            <form class="form-inline my-2 my-lg-0 d-flex">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="title-container">
+            <div class="title">
+                <div class="outer-circle">
+                    <div class="inner-circle">My</div>
+                </div>
+                Perfume
+            </div>
+        </div>
+        <div class="content mt-5 d-flex">
+            <div class="left col-md-6">
+                <img src="./asset/1.jpg" alt="">
+                <div>5 Loại nước hoa cho mùa hè</div>
+                <ul class="list list-unstyled">
+                    <li>Loại 1</li>
+                    <li>Loại 2</li>
+                    <li>Loại 3</li>
+                    <li>Loại 4</li>
+                    <li>Loại 5</li>
+                </ul>
+            </div>
+            <div class="right col-md-6">
+                <div class="main-content">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./asset/1.jpg" alt="">
+                            <div class="d-flex justify-content-center" style="color: brown;">Vo sac tau</div>
+                            <div  class="d-flex justify-content-center" style="color: blueviolet;">1.200.000 VND</div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./asset/1.jpg" alt="">
+                            <div class="d-flex justify-content-center" style="color: brown;">Vo sac tau</div>
+                            <div  class="d-flex justify-content-center" style="color: blueviolet;">1.200.000 VND</div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./asset/1.jpg" alt="">
+                            <div class="d-flex justify-content-center" style="color: brown;">Vo sac tau</div>
+                            <div  class="d-flex justify-content-center" style="color: blueviolet;">1.200.000 VND</div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./asset/1.jpg" alt="">
+                            <div class="d-flex justify-content-center" style="color: brown;">Vo sac tau</div>
+                            <div  class="d-flex justify-content-center" style="color: blueviolet;">1.200.000 VND</div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./asset/1.jpg" alt="">
+                            <div class="d-flex justify-content-center" style="color: brown;">Vo sac tau</div>
+                            <div  class="d-flex justify-content-center" style="color: blueviolet;">1.200.000 VND</div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./asset/1.jpg" alt="">
+                            <div class="d-flex justify-content-center" style="color: brown;">Vo sac tau</div>
+                            <div  class="d-flex justify-content-center" style="color: blueviolet;">1.200.000 VND</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div > @ akdsfkasdifkakdfs</div>
+    </div>
+</body>
+
+</html>
